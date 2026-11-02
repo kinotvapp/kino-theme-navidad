@@ -1,0 +1,129 @@
+{
+  "id": "theme-navidad",
+  "name": "Navidad",
+  "version": "1.0.0",
+  "apiVersion": 18,
+  "entry": "plugin.js",
+  "icon": "icon.png",
+  "description": "Verde de abeto, rojo de bola y dorado de estrella: la Navidad en toda la app.",
+  "author": "kinotvapp",
+  "hosts": [],
+  "categories": [
+    "themes"
+  ],
+  "capabilities": [
+    "screen"
+  ],
+  "screen": {
+    "label": "Navidad",
+    "labelEn": "Christmas",
+    "opensFrom": [
+      "settings"
+    ],
+    "settingsButton": {
+      "label": "Ver presentación",
+      "labelEn": "See presentation"
+    }
+  },
+  "appThemes": [
+    {
+      "id": "navidad",
+      "name": {
+        "es": "Navidad",
+        "en": "Christmas"
+      },
+      "colors": {
+        "accent": "#FF4D5E",
+        "onAccent": "#2A0508",
+        "background": "#05180C",
+        "surface": "#0D2A16",
+        "surfaceHigh": "#153B22",
+        "railPanel": "#08200F"
+      },
+      "shape": {
+        "cardRadius": 10,
+        "channelRadius": 10,
+        "buttonRadius": 10,
+        "chipRadius": 10,
+        "dialogRadius": 14,
+        "inputRadius": 8
+      },
+      "typography": {
+        "scale": 1.0,
+        "titleScale": 1.05
+      },
+      "tv": {
+        "typography": {
+          "scale": 1.0
+        }
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#FF4D5E",
+            "#FFC857",
+            "#E8F5E9"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 32
+        },
+        "typography.scale": {
+          "min": 1.0,
+          "max": 1.3
+        }
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#05180C",
+          "#0F3A1D"
+        ],
+        "angle": 180
+      },
+      "price": {
+        "kinos": 10,
+        "payTo": "8b97f0011f9d4594d269edc4afb3a0ee10e394abf54b0a40d90ca83f8f7d6a0e"
+      },
+      "logo": {
+        "decor": {
+          "paths": [
+            {
+              "d": "M -104 0 A 104 104 0 1 1 104 0 A 104 104 0 1 1 -104 0 Z",
+              "fill": "#000000"
+            },
+            {
+              "d": "M -100 0 A 100 100 0 1 1 100 0 A 100 100 0 1 1 -100 0 Z",
+              "fill": "#D8262F"
+            },
+            {
+              "d": "M -100.6 13.8 L 75.2 -68.2 L 82.0 -53.7 L -93.8 28.3 Z M -82.0 53.7 L 93.8 -28.3 L 100.6 -13.8 L -75.2 68.2 Z",
+              "fill": "#FFFFFF"
+            },
+            {
+              "d": "M -91.3 33.7 L 84.5 -48.2 L 91.3 -33.7 L -84.5 48.2 Z",
+              "fill": "#FFC857"
+            },
+            {
+              "d": "M -74 -34 A 82 82 0 0 1 -30 -78 L -38 -62 A 66 66 0 0 0 -62 -36 Z",
+              "fill": "#FF8A8F"
+            },
+            {
+              "d": "M -24 -96 L 24 -96 L 24 -120 L -24 -120 Z M -11 -132 A 11 11 0 1 1 11 -132 A 11 11 0 1 1 -11 -132 Z M -6 -132 A 6 6 0 1 0 6 -132 A 6 6 0 1 0 -6 -132 Z",
+              "fill": "#F5C242"
+            },
+            {
+              "d": "M -353.0 -186.0 L -336.5 -154.7 L -301.6 -148.7 L -326.4 -123.3 L -321.3 -88.3 L -353.0 -104.0 L -384.7 -88.3 L -379.6 -123.3 L -404.4 -148.7 L -369.5 -154.7 Z",
+              "fill": "#000000"
+            },
+            {
+              "d": "M -353.0 -179.0 L -338.9 -151.4 L -308.3 -146.5 L -330.2 -124.6 L -325.4 -94.0 L -353.0 -108.0 L -380.6 -94.0 L -375.8 -124.6 L -397.7 -146.5 L -367.1 -151.4 Z",
+              "fill": "#FFC857"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
